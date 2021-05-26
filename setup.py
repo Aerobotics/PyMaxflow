@@ -83,6 +83,4 @@ setup(
     ],
     packages=["maxflow"],
     ext_modules=lazy_cythonize(extensions),
-    requires=['numpy', 'Cython'],
-    setup_requires=['numpy', 'Cython']
 )
